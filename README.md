@@ -4,7 +4,9 @@
 
 ![Schematic](attachments/image1.png)
 
-This is a distance detector made using a HC-SR04 ultrasonic sensor via microcontroller Raspberry Pi Pico. It contains an ultrasonic sensor, buzzer, red, green and white LED. The Trigger pin is the output connected to the GPIO pin, with the echo being the input and connected to another GPIO pin. They are defined in the code. It is powered by the 3v and ground goes to ground.
+This is a distance detector made using a HC-SR04 ultrasonic sensor via microcontroller Raspberry Pi Pico. It contains an ultrasonic sensor, buzzer, red, green and white LED. The white LED blinks. A red LED on means distance is far. A green led means distance is close and the buzzer goes off.
+
+The Trigger pin is the output connected to the GPIO pin, with the echo being the input and connected to another GPIO pin. They are defined in the code. It is powered by the 3v and ground goes to ground.
 
 For the LEDs the anode is connected to a GPIO pinout, and the cathode is connected to resistor and to ground. There are three types of LED, the red being too far, the green being close, and the white is passively on. The white LED indicates activity, so powered on. For the buzzer, it is connect to GPIO pinout and is grounded.
 
